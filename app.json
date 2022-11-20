@@ -1,0 +1,15 @@
+{
+    "id": "4e2d1c4c-619a-4412-a4ee-bb75ad73b0c4",
+    "version": "0.0.1",
+    "requiredApiVersion": "^1.4.0",
+    "iconFile": "icon.png",
+    "author": {
+        "name": "Duda Nogueira",
+        "homepage": "https://github.com/dudanogueira",
+        "support": "https://github.com/dudanogueira/Mautic.App"
+    },
+    "name": "Mautic.App",
+    "nameSlug": "mauticapp",
+    "classFile": "MauticAppApp.ts",
+    "description": "Mautic Integration with Rocket.Chat"
+}
