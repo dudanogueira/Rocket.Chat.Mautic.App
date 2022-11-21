@@ -11,6 +11,6 @@
     "name": "Mautic",
     "nameSlug": "mautic",
     "classFile": "MauticAppApp.ts",
-    "description": "Mautic Integration with Rocket.Chat",
+    "description": "Open Source Marketing Tool Integration for Rocket.Chat",
     "implements": []
 }

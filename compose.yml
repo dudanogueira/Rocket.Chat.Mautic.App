@@ -24,6 +24,19 @@ services:
       PORT: ${PORT:-3000}
       DEPLOY_METHOD: docker
       DEPLOY_PLATFORM: ${DEPLOY_PLATFORM}
+      OVERWRITE_SETTING_Show_Setup_Wizard: "complete"
+      ADMIN_USERNAME: adminrc
+      ADMIN_PASS: admin
+      ADMIN_EMAIL: admin@example.com      
+      OVERWRITE_SETTING_Accounts_TwoFactorAuthentication_Enforce_Password_Fallback: "false"
+      OVERWRITE_SETTING_SMTP_Host: mailhog
+      OVERWRITE_SETTING_SMTP_Port: 1025
+      OVERWRITE_SETTING_From_Email: from@email.com
+      OVERWRITE_SETTING_API_Enable_Rate_Limiter: "false"
+      OVERWRITE_SETTING_Livechat_validate_offline_email: "false"
+      CREATE_TOKENS_FOR_USERS: "true"
+      OVERWRITE_SETTING_Accounts_SystemBlockedUsernameList: administrator,system,user
+      OVERWRITE_SETTING_Apps_Framework_Development_Mode: "true"
     depends_on:
       - mongodb
     expose:
