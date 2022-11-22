@@ -24,11 +24,13 @@ services:
       PORT: ${PORT:-3000}
       DEPLOY_METHOD: docker
       DEPLOY_PLATFORM: ${DEPLOY_PLATFORM}
+      OVERWRITE_SETTING_Log_Level: 2
       OVERWRITE_SETTING_Show_Setup_Wizard: "complete"
       ADMIN_USERNAME: adminrc
       ADMIN_PASS: admin
-      ADMIN_EMAIL: admin@example.com      
+      ADMIN_EMAIL: admin@example.com   
       OVERWRITE_SETTING_Accounts_TwoFactorAuthentication_Enforce_Password_Fallback: "false"
+      OVERWRITE_SETTING_Accounts_TwoFactorAuthentication_Enabled: "false"
       OVERWRITE_SETTING_SMTP_Host: mailhog
       OVERWRITE_SETTING_SMTP_Port: 1025
       OVERWRITE_SETTING_From_Email: from@email.com

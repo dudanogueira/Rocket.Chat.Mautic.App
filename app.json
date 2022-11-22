@@ -10,7 +10,11 @@
     },
     "name": "Mautic",
     "nameSlug": "mautic",
-    "classFile": "MauticAppApp.ts",
-    "description": "Open Source Marketing Tool Integration for Rocket.Chat",
-    "implements": []
+    "classFile": "MauticApp.ts",
+    "description": "Open Source Marketing Platform Integration for Rocket.Chat",
+    "implements": [
+        "IPostLivechatGuestSaved",
+        "IPostLivechatRoomSaved",
+        "IPostUserLoggedIn"
+    ]
 }
