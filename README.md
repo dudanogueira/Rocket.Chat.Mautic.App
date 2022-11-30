@@ -5,12 +5,14 @@ Mautic Integration with Rocket.Chat
 This App will provide integrations with between Rocket.Chat and Mautic.
 
 ## Working features
-  - [OMNICHANNEL/SOON] Create new Mautic Contact on livechat creation or close
-  - [OMNICHANNEL/SOON] Allow default Mautic segment on registration
+- Development Environment
 
 ## RoadMap
+ - [OMNICHANNEL] Create new Mautic Contact on livechat creation or close
+ - [OMNICHANNEL] Allow default Mautic segment on registration
  - [OMNICHANNEL] Add Contact from Mapped Mautic Segment on visitor transferred to Departments
  - [OMNICHANNEL] Add Commands
+ - [OMNICHANNEL] Auto Search for new visitor chat on Mautic and present with iformations and actions
  - [TEAMCOLLAB] Add new Mautic Contact on user registration
  - [TEAMCOLLAB] Add/Remove Contact from Mapped Mautic Segment on user join/leave Rocket.Chat Channel
  - [TEAMCOLLAB] Create an endpoint to allow easy message to be sent for users or channels from a Mautic Campaign
